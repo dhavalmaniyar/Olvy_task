@@ -23,7 +23,7 @@
 2. Now, install requirements.txt file using:
 
    ```
-   (myenv)Olvy_task$ pip install requirements.txt
+   (myenv)Olvy_task$ pip install -r requirements.txt
    ```
  
    This will install all the dependencies.
@@ -34,7 +34,13 @@
   ```
   This will available on port no. 8000.
   
-4. Now, get inside the ```vueapp/vuedjango``` and run command to start the vue.js server.
+4. Now, Download and install yarn package manager using command.
+  ```
+  npm install --global yarn
+  ```
+5. Get inside the ```vueapp/vuedjango``` and install node modules using ``` yarn install ``` command
+
+6. After installing, type following command to start the frontend server.
 
   ```
 Olvy_task/vueapp/vuedjango$ yarn serve
